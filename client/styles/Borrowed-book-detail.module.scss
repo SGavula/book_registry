@@ -1,0 +1,116 @@
+@import "variables";
+
+.book_detail {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    max-width: 1320px;
+    padding: 81px 0 92px 0;
+
+    h3 {
+        margin: 0 0 38px 0;
+    }
+
+    .informations {
+        display: flex;
+
+        h3 {
+            width: fit-content;
+            border-bottom: 2px solid $purple;
+            padding: 0 60px 10px 0;
+            font-size: 16px;
+            font-weight: 800;
+        }
+
+        h4 {
+            font-size: 16px;
+            font-weight: 800;
+            margin: 26px 0 12px 0;
+        }
+
+        .book_wrapper {
+            width: 50%;
+        }
+
+        .loan_wrapper {
+            width: 50%;
+
+            .name {
+                div {
+                    display: flex;
+                    column-gap: 10px;
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1450px) {
+        width: auto;
+        margin: 0 40px;
+    }
+
+    @media screen and (max-width: 1150px) {
+        .informations {
+            justify-content: space-around;
+
+            h3 {
+                padding: 0 30px 10px 0;
+            }
+
+            .book_wrapper {
+                width: auto;
+            }
+
+            .loan_wrapper {
+                width: auto;
+            }
+        }
+    }
+
+    @media screen and (max-width: 950px) {
+        .informations {
+            justify-content: space-between;
+            gap: 40px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 40px 0;
+
+        .informations {
+            flex-direction: column;
+            gap: 60px;
+
+            h3 {
+                width: 100%;
+                padding-right: 0;
+                margin-top: 0;
+            }
+
+            div {
+                text-align: center;
+            }
+
+            .name {
+                div {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .informations {
+            gap: 40px;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .informations {
+            gap: 20px;
+        }
+    }
+
+}

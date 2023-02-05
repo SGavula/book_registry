@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,MAAM;CACjB",
+    "sources": [
+        "Indicator.module.scss"
+    ],
+    "names": [],
+    "file": "Indicator.module.css"
+}

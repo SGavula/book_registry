@@ -1,0 +1,116 @@
+@import "variables";
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .navigation_wrapper {
+        max-width: 963px;
+        display: flex;
+        gap: 97px; 
+    
+        .button_wrapper {
+            border: 7px solid $purple;
+            border-radius: 30px;
+            padding: 60px 0;
+            width: 433px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all .1s ease-in;
+    
+            p {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 59px;
+                text-align: center;
+                text-transform: uppercase;
+                color: $purple;
+                margin: 61px 0 0 0;
+            }
+
+            &:hover {
+                background-color: $purple;
+                p {
+                    color: $white;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1150px) {
+        .navigation_wrapper {
+            gap: 40px;
+            .button_wrapper {
+                width: 400px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 950px) {
+        .navigation_wrapper {
+            .button_wrapper {
+                width: 300px;
+                padding: 30px 10px;
+
+                p {
+                    font-size: 32px;
+                    line-height: 42px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .navigation_wrapper {
+            flex-direction: column;
+            width: 90%;
+            margin: 0 auto;
+
+            .button_wrapper {
+                width: 100%;
+                flex-direction: row;
+                padding: 40px 30px;
+
+                p {
+                    margin: 0 0 0 30px;
+                    text-align: left;
+                }
+
+                img {
+                    width: 100px;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .navigation_wrapper {
+            .button_wrapper {
+
+                p {
+                    margin: 0 0 0 20px;
+                    font-size: 26px;
+                    line-height: 36px;
+                }
+
+                img {
+                    width: 60px;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 900px) and (orientation: landscape) {
+        height: auto;
+        padding: 30px 0;
+    }
+}

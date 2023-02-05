@@ -1,0 +1,18 @@
+.checkbox {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    position: relative;
+    cursor: pointer;
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: auto;
+    }
+}

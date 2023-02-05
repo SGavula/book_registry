@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+.book_detail {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  max-width: 1320px;
+  padding: 81px 0 92px 0;
+}
+
+.book_detail h3 {
+  margin: 0 0 38px 0;
+}
+
+.book_detail .informations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.book_detail .informations h3 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 2px solid #40476D;
+  padding: 0 60px 10px 0;
+}
+
+.book_detail .informations .book_wrapper {
+  width: 50%;
+}
+
+.book_detail .informations .loan_wrapper {
+  width: 50%;
+}
+
+.book_detail .informations .loan_wrapper .name div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.book_detail .informations .loan_wrapper .name div p {
+  margin: 0;
+}
+
+@media screen and (max-width: 1450px) {
+  .book_detail {
+    width: auto;
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .book_detail .informations {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .book_detail .informations h3 {
+    padding: 0 30px 10px 0;
+  }
+  .book_detail .informations .book_wrapper {
+    width: auto;
+  }
+  .book_detail .informations .loan_wrapper {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .book_detail .informations {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .book_detail {
+    padding: 40px 0;
+  }
+  .book_detail .informations {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 60px;
+  }
+  .book_detail .informations h3 {
+    width: 100%;
+    padding-right: 0;
+    margin-top: 0;
+  }
+  .book_detail .informations div {
+    text-align: center;
+  }
+  .book_detail .informations .name div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .book_detail .informations {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .book_detail .informations {
+    gap: 20px;
+  }
+}
+/*# sourceMappingURL=Borrowed-book-detail.module.css.map */

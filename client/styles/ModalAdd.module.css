@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+.modal_wrapper {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.modal_wrapper .modal_header .modal_title {
+  color: #40476D;
+}
+
+.modal_wrapper .input_wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modal_wrapper .input_wrapper:nth-child(2) {
+  padding: 20px 0;
+}
+
+.modal_wrapper .input_wrapper label {
+  font-size: 16px;
+}
+
+.modal_wrapper .input_wrapper input {
+  margin: 8px 0 0 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #40476D;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  border-radius: 6px;
+}
+
+.modal_wrapper .input_wrapper input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modal_wrapper .modal_footer {
+  border-top: none;
+}
+
+.modal_wrapper .modal_footer button {
+  padding: 6px 20px;
+}
+
+.modal_wrapper .modal_footer button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modal_wrapper .modal_footer .submit_btn {
+  background-color: #40476D;
+}
+/*# sourceMappingURL=ModalAdd.module.css.map */

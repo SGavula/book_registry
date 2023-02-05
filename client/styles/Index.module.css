@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.login .login_wrapper {
+  text-align: center;
+  width: 658px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login .login_wrapper h1 {
+  margin: 40px 0 0 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 88px;
+  color: #40476D;
+  margin-bottom: 48px;
+}
+
+.login .login_wrapper form {
+  width: 100%;
+}
+
+.login .login_wrapper form .input_wrapper {
+  width: 100%;
+}
+
+.login .login_wrapper form .input_wrapper:nth-child(2) {
+  margin: 24px 0;
+}
+
+.login .login_wrapper form .input_wrapper input {
+  border: 3px solid #40476D;
+  border-radius: 10px;
+  padding: 24px 0px 24px 31px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  color: rgba(64, 71, 109, 0.4);
+  width: 100%;
+}
+
+.login .login_wrapper form .input_wrapper input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.login .login_wrapper form button {
+  background-color: #40476D;
+  border: 3px solid #40476D;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #F7F7F2;
+  padding: 24px;
+  width: 100%;
+  cursor: pointer;
+  margin: 0 0 40px 0;
+}
+
+@media screen and (max-width: 700px) {
+  .login .login_wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .login .login_wrapper h1 {
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .login .login_wrapper form .input_wrapper input {
+    font-size: 22px;
+    line-height: 27px;
+    padding: 18px;
+  }
+  .login .login_wrapper form button {
+    font-size: 22px;
+    line-height: 27px;
+    padding: 18px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .login .login_wrapper {
+    width: 90%;
+  }
+  .login .login_wrapper h1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .login .login_wrapper form .input_wrapper input {
+    font-size: 22px;
+    line-height: 27px;
+    padding: 18px;
+  }
+  .login .login_wrapper form button {
+    font-size: 22px;
+    line-height: 27px;
+    padding: 18px 0;
+  }
+}
+
+@media (max-width: 900px) and (orientation: landscape) {
+  .login {
+    height: auto;
+    padding: 30px 0;
+  }
+}
+/*# sourceMappingURL=Index.module.css.map */

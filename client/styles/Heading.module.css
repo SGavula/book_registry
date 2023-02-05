@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 38px 0;
+}
+
+.heading h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #40476D;
+  margin: 0;
+}
+
+.heading img {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1360px) {
+  .heading {
+    max-width: none;
+    margin: 0 20px 38px 20px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .heading h3 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heading h3 {
+    font-size: 32px;
+  }
+  .heading img {
+    width: 30px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .heading h3 {
+    font-size: 26px;
+  }
+}
+/*# sourceMappingURL=Heading.module.css.map */

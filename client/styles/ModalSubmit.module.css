@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+.modal_wrapper {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.modal_wrapper .modal_header .modal_title {
+  color: #40476D;
+}
+
+.modal_wrapper .modal_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal_wrapper .modal_body button {
+  padding: 6px 20px;
+  margin: 4px;
+}
+
+.modal_wrapper .modal_body button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.modal_wrapper .modal_body .submit_btn {
+  background-color: #40476D;
+}
+/*# sourceMappingURL=ModalSubmit.module.css.map */

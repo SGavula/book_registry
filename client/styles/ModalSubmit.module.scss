@@ -1,0 +1,30 @@
+@import "variables";
+
+.modal_wrapper {
+    font-family: 'Montserrat', sans-serif;
+
+    .modal_header {
+        .modal_title {
+            color: $purple;
+        }
+    }
+
+    .modal_body {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        button {
+            padding: 6px 20px;
+            margin: 4px;
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    
+        .submit_btn {
+            background-color: $purple;
+        }
+    }
+
+}
